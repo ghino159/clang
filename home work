@@ -10,8 +10,17 @@ int main(void)
         {30, 31, 32, 33, 34, 35, 36, 37, 38, 39},
         {40, 41, 42, 43, 44, 45, 46, 47, 48, 49},
     };
-    
-    for(int i = 0; i < 5; i++)
+
+    for(int i = 0; i < 1; i++)
+    {
+        for(int j = 0; j < 10; j++)
+        {
+            printf("%d  ", iarr[i][j]);
+        }
+        printf("\n");
+    }
+
+    for(int i = 1; i < 5; i++)
     {
         for(int j = 0; j < 10; j++)
         {
